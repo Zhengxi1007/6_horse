@@ -1,0 +1,28 @@
+# 构建 / 逆向中间产物（体积巨大，不入库）
+work/
+work$f.dex
+*.idsig
+__pycache__/
+*.pyc
+*.class
+*.apk
+*.ap_
+*.dex
+*.bin
+
+# 生成物
+hostapp/obj/
+hostapp/out/
+hostapp/gen/
+hostapp/dex/
+kami-android-client/build/
+kami-android-client/testbuild/
+
+# 签名密钥（私钥不入库）
+*.jks
+*.keystore
+*.p12
+
+# 系统
+.DS_Store
+Thumbs.db
